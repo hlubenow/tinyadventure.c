@@ -16,7 +16,7 @@ If the direction doesn't lead to any room, "0" is stored in the array line (in t
     N  E  S  W
     2  0  0  0 <-- Room 1: N leads to 2.
     0  3  1  0 <-- Room 2: E leads to 3, S to 1.
-    4  0  0  2 <-- Room 3: N leads to 2, W to 2.
+    4  0  0  2 <-- Room 3: N leads to 4, W to 2.
     0  0  3  0 <-- Room 4: S leads to 3
 
 There are two examples "move_example.py" and "move_example.c" here, to show, how this can be done.
