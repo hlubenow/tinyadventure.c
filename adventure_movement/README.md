@@ -12,6 +12,7 @@ Then I thought, if you have to save memory (like on an 8 bit computer), you coul
 And at each direction column, the number of the room, to which the direction movement leads, is stored.
 If the direction doesn't lead to any room, "0" is stored in the array line (in the matrix).
 There are two examples "move_example.py" and "move_example.c" here, to show, how this can be done.
+
 Even more compact would be strings like "#C#E" using ASCII-values to store room numbers.
 
 License is GNU GPL 3 (or above).
