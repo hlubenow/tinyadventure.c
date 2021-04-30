@@ -13,6 +13,6 @@ And at each direction column, the number of the room, to which the direction mov
 If the direction doesn't lead to any room, "0" is stored in the array line (in the matrix).
 There are two examples "move_example.py" and "move_example.c" here, to show, how this can be done.
 
-Even more compact would be strings like "#C#E" using ASCII-values to store room numbers.
+Even more compact would be strings like "#C#E" using ASCII-values to store the room numbers.
 
 License is GNU GPL 3 (or above).
