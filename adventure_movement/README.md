@@ -1,6 +1,6 @@
 #### Adventure Movement
 
-For many, many years, I always wondered, how the movement in adventure games was managed.
+For many, many years, I wondered, how the movement in adventure games was managed.
 From a starting room, you can walk to a second room, and walk back to the first room. There may also be the directions "up" and "down". How is this done?
 
 The rooms should point to each other. This leads to a web-like structure. In [this video](https://www.youtube.com/watch?v=8CDePunJlck) about Python, the lecturer suggests a "Room" class, and in this class a dictionary "self.exits", like this:
