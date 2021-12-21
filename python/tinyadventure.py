@@ -71,7 +71,7 @@ while textnr < 11:
         if item == "key":
             textnr -= 1
         if item == "sword":
-            textnr -= 1
+            textnr -= 2
 
     if locationnr == 4 and userinput == "look corpse":
         textnr += 6
