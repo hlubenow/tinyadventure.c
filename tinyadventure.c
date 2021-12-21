@@ -114,10 +114,9 @@ int main() {
         if (strcmp(userinput, "inventory") == 0) {
             textnr += 6;
             if (item == key)
-                textnr--;
-
+                textnr -= 1;
             if (item == sword)
-                textnr--;
+                textnr -= 2;
         }
 
         if (locationnr == 4 && strcmp(userinput, "look corpse") == 0) {
