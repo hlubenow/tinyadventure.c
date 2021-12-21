@@ -5,6 +5,6 @@ I heard about that game in [this Youtube video](https://www.youtube.com/watch?v=
 
 To press that game into such few lines of code, it was necessary to write them in a rather cryptic way. After translating the code to Python and C, I finally realized, what the program was doing. I then expanded the code again into a more comprehendable version in C, which I upload here. Of course, this version is not that small any more.
 
-Later, I retranslated the Python version back to ZX Spectrum BASIC. Use [bas2tap](https://github.com/speccyorg/bas2tap) to convert the text-file to a ".tap"-file, which then can be used in a ZX Spectrum emulator such as "fuse".
+Later, I retranslated the Python version back to ZX Spectrum BASIC. Use [bas2tap](https://github.com/speccyorg/bas2tap) to convert the text-file `tinyadventure.bas` to a file `tinyadventure.tap`, which then can be used in a ZX Spectrum emulator such as "fuse".
 
 License: GNU GPL 3 (or higher)
